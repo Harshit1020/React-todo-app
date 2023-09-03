@@ -45,7 +45,7 @@ const updateTask = (e) =>{
 }
   
   return (
-    <form className='w-50'>
+    <form className='w-50 btn btn-info'>
   <h3>Create Your Task</h3>
     <input 
     className='form-control mb-3' 

@@ -1,7 +1,6 @@
+"use client"
 import React from 'react'
-
 const Show = (props) => {
-
     const{task , settitle, setdesc , setstatus , setactivetask , settask} = props
     // for rendring the list
  let tasklist = <h1 className='text-danger mt-5 w-100 fs-3'>loading task</h1>
@@ -48,8 +47,6 @@ const deletHandler =(index)=>{
   setstatus(status);
   setactivetask(index)
   }
-  
-
     return (
     <div className="d-flex flex-wrap">{tasklist}</div>
   )
