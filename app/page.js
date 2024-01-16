@@ -10,7 +10,7 @@ const page = () => {
   const [task, settask] = useState([])
   const [activetask, setactivetask] = useState(null);
   return (
-  <div className='mt-5 container p-5 w-50'>
+  <div className='container p-5 w-50'>
     <Create
       title = {title}
       settitle = {settitle}
